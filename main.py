@@ -17,6 +17,11 @@ class AlunoGUI:
         self.alunos = []
         self.root = root
         self.root.title("Sistema de Registro de Notas")
+        self.root.configure(background= '#1e3743')
+        self.root.geometry("700x500")
+        # self.root.resizable(False, False)
+        # self.root.maxsezi(width= 900,height= 700)
+        # self.root.minsize(width= 400, height=300)
         
         # Labels
         self.lbl_cpf = tk.Label(root, text="CPF:")
